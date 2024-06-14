@@ -3,16 +3,17 @@ region: northamerica-northeast1
 apps:
 - name: ax360-bff
   image: gcr.io/prj-iapw-cicd-c-cicd-vld4/iapw_cloud_run/iapw-ax360-bff
-  tag: 
+  tag: ax360-bff-v1.0.287
   registryType: GCR
   serviceAccount: cloud-run@iapw-acf-d-qa1-ax360-1000.iam.gserviceaccount.com
   env:
+
 project: iapw-acf-d-qa1-ax360-1000
 region: northamerica-northeast1
 apps:
 - name: ax360-bff
   image: gcr.io/prj-iapw-cicd-c-cicd-vld4/iapw_cloud_run/iapw-ax360-bff
-  tag: 
+  tag: ax360-webapp-v1.0.446
   registryType: GCR
   serviceAccount: cloud-run@iapw-acf-d-qa1-ax360-1000.iam.gserviceaccount.com
   env:
