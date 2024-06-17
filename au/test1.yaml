@@ -3,7 +3,7 @@ region: northamerica-northeast1
 apps:
 - name: ax360-bff
   image: gcr.io/prj-iapw-cicd-c-cicd-vld4/iapw_cloud_run/iapw-ax360-bff
-  tag: iapw-kyc-v2.0.588.11
+  tag: iapw-kyc-v2.0.588.110
   registryType: GCR
   serviceAccount: cloud-run@iapw-acf-d-qa1-ax360-1000.iam.gserviceaccount.com
   env:
@@ -13,7 +13,7 @@ region: northamerica-northeast1
 apps:
 - name: ax360-bff
   image: gcr.io/prj-iapw-cicd-c-cicd-vld4/iapw_cloud_run/iapw-ax360-bff
-  tag: iapw-notification-v2.0.586.10
+  tag: iapw-notification-v2.0.586.100
   registryType: GCR
   serviceAccount: cloud-run@iapw-acf-d-qa1-ax360-1000.iam.gserviceaccount.com
   env:
