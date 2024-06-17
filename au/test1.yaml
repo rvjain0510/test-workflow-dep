@@ -3,7 +3,7 @@ region: northamerica-northeast1
 apps:
 - name: ax360-bff
   image: gcr.io/prj-iapw-cicd-c-cicd-vld4/iapw_cloud_run/iapw-ax360-bff
-  tag: iapw-kyc-v2.0.588.111
+  tag: iapw-kyc-v2.0.588.112
   registryType: GCR
   serviceAccount: cloud-run@iapw-acf-d-qa1-ax360-1000.iam.gserviceaccount.com
   env:
